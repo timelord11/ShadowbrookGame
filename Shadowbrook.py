@@ -232,7 +232,7 @@ def castle_right2a(player):
         else:
             if key == False:
                 print "The door has a large lock preventing you form opening it."
-                print "
+                print ""
     elif inspect == 'no':
         doors = raw_input("left or right door: ")
         if doors == 'left':
@@ -245,7 +245,8 @@ def castle_right2a(player):
                 key == True
                 print "You leave the room and reenter the hallway."
                 inspect2 = raw_input("Inspect large door? yes or no: ")
-                if inspect2 == 'yes'
+                if inspect2 == 'yes':
+                    print""
             
 
 #left path in forest
